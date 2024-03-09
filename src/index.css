@@ -10,7 +10,7 @@
 
 body {
   box-sizing: border-box;
-  background-color: rgb(178, 218, 250);
+  background: linear-gradient(rgb(178, 218, 250), rgb(55, 165, 255));
   margin: 0px;
   padding: 0px;
   height: 250vh;
@@ -25,8 +25,11 @@ body {
 
 input {
   position: absolute;
-  left: 45%;
+  left: 43%;
   top: 25%;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 button {
@@ -65,8 +68,8 @@ button:focus-visible {
 .car {
   position: absolute;
   transform: translate(-50%, 0%);
-  left: 32%;
-  top: 40%;
+  left: 34%;
+  top: 36%;
   border: 2px black solid;
   border-radius: 10px;
   width: 600px;
@@ -76,8 +79,8 @@ button:focus-visible {
 
 .text {
   position: absolute;
-  left: 52%;
-  top: 40%;
+  left: 50%;
+  top: 36%;
   background-color: white;
   border: 2px black solid;
   border-radius: 10px;
